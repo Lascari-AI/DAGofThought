@@ -1,0 +1,417 @@
+{
+    "name": "InDepthStructuredReasoning",
+    "description": "Correctly extracted `InDepthStructuredReasoning` with all the required parameters with correct types",
+    "parameters": {
+      "reasoning_process": {
+        "foundation_observations": [
+          {
+            "key": "FO_1",
+            "name": "Understanding Key Challenges in AI Era Education",
+            "atomic_steps": [
+              {
+                "key": "AS_1",
+                "previous_step_key": "None",
+                "content": "We note that AI is changing what skills are most valuable."
+              },
+              {
+                "key": "AS_2",
+                "previous_step_key": "AS_1",
+                "content": "Critical thinking and creativity are increasingly important."
+              },
+              {
+                "key": "AS_3",
+                "previous_step_key": "AS_2",
+                "content": "Rapid technological shifts demand flexible learning pathways."
+              },
+              {
+                "key": "AS_4",
+                "previous_step_key": "AS_3",
+                "content": "Cultural sensitivity is also key for a global environment."
+              },
+              {
+                "key": "AS_5",
+                "previous_step_key": "AS_4",
+                "content": "Budget constraints remain a pragmatic factor."
+              }
+            ]
+          },
+          {
+            "key": "FO_2",
+            "name": "Balancing Creativity, Cultural Context, and Budget",
+            "atomic_steps": [
+              {
+                "key": "AS_6",
+                "previous_step_key": "None",
+                "content": "We must ensure creativity remains a core outcome."
+              },
+              {
+                "key": "AS_7",
+                "previous_step_key": "AS_6",
+                "content": "We should consider ways to adapt curricula to diverse cultures."
+              },
+              {
+                "key": "AS_8",
+                "previous_step_key": "AS_7",
+                "content": "We can leverage AI to reduce certain costs and stay within budget."
+              },
+              {
+                "key": "AS_9",
+                "previous_step_key": "AS_8",
+                "content": "Programs that unify cultural differences can preserve creativity."
+              },
+              {
+                "key": "AS_10",
+                "previous_step_key": "AS_9",
+                "content": "The new system must address global readiness for AI."
+              }
+            ]
+          },
+          {
+            "key": "FO_3",
+            "name": "Reimagining Curriculum Design for AI Age",
+            "atomic_steps": [
+              {
+                "key": "AS_11",
+                "previous_step_key": "None",
+                "content": "Focus on project-based, experiential learning."
+              },
+              {
+                "key": "AS_12",
+                "previous_step_key": "AS_11",
+                "content": "Promote collaborative problem-solving with AI tools."
+              },
+              {
+                "key": "AS_13",
+                "previous_step_key": "AS_12",
+                "content": "Use adaptive platforms that personalize learning."
+              },
+              {
+                "key": "AS_14",
+                "previous_step_key": "AS_13",
+                "content": "Include cultural exchange programs to broaden perspectives."
+              },
+              {
+                "key": "AS_15",
+                "previous_step_key": "AS_14",
+                "content": "Incorporate continuous teacher training to align with AI readiness."
+              }
+            ]
+          },
+          {
+            "key": "FO_4",
+            "name": "Implementation Details and Measuring Outcomes",
+            "atomic_steps": [
+              {
+                "key": "AS_28",
+                "previous_step_key": "None",
+                "content": "We need metrics for creativity, critical thinking, and cultural awareness."
+              },
+              {
+                "key": "AS_29",
+                "previous_step_key": "AS_28",
+                "content": "Possible approaches include portfolio assessments and peer review."
+              },
+              {
+                "key": "AS_30",
+                "previous_step_key": "AS_29",
+                "content": "AI can help track student engagement trends without replacing teachers."
+              },
+              {
+                "key": "AS_31",
+                "previous_step_key": "AS_30",
+                "content": "We must ensure cost-effectiveness with digital infrastructure."
+              },
+              {
+                "key": "AS_32",
+                "previous_step_key": "AS_31",
+                "content": "Comparing outcomes across cultural contexts is complex."
+              },
+              {
+                "key": "AS_33",
+                "previous_step_key": "AS_32",
+                "content": "Multilingual, multicultural teacher collaboration can standardize certain rubrics."
+              },
+              {
+                "key": "AS_34",
+                "previous_step_key": "AS_33",
+                "content": "We can pilot programs in different regions to refine universal metrics."
+              },
+              {
+                "key": "AS_35",
+                "previous_step_key": "AS_34",
+                "content": "Creative expression may need both quantitative and qualitative measurement."
+              },
+              {
+                "key": "AS_36",
+                "previous_step_key": "AS_35",
+                "content": "We might also need to measure ethical judgment in AI-driven tasks."
+              },
+              {
+                "key": "AS_37",
+                "previous_step_key": "AS_36",
+                "content": "All these steps must still align with local and national budget realities."
+              }
+            ]
+          },
+          {
+            "key": "FO_5",
+            "name": "Policy Alignment and Teacher Involvement",
+            "atomic_steps": [
+              {
+                "key": "AS_38",
+                "previous_step_key": "None",
+                "content": "Teachers are central to bridging AI tools and student creativity."
+              },
+              {
+                "key": "AS_39",
+                "previous_step_key": "AS_38",
+                "content": "We should align with existing education policies to ease adoption."
+              },
+              {
+                "key": "AS_40",
+                "previous_step_key": "AS_39",
+                "content": "Regular training sessions on AI-driven pedagogical methods are key."
+              },
+              {
+                "key": "AS_41",
+                "previous_step_key": "AS_40",
+                "content": "Teachers may need ongoing support to adapt lesson plans for cultural contexts."
+              },
+              {
+                "key": "AS_42",
+                "previous_step_key": "AS_41",
+                "content": "We can involve teacher feedback loops to refine curricula in real-time."
+              },
+              {
+                "key": "AS_43",
+                "previous_step_key": "AS_42",
+                "content": "Collaboration with policymakers ensures funding frameworks remain feasible."
+              },
+              {
+                "key": "AS_44",
+                "previous_step_key": "AS_43",
+                "content": "Incentives for teachers to innovate can maintain creativity in the classroom."
+              },
+              {
+                "key": "AS_45",
+                "previous_step_key": "AS_44",
+                "content": "We should keep all communities engaged so the policy changes are welcomed."
+              },
+              {
+                "key": "AS_46",
+                "previous_step_key": "AS_45",
+                "content": "Teacher involvement fosters cultural context awareness across regions."
+              },
+              {
+                "key": "AS_47",
+                "previous_step_key": "AS_46",
+                "content": "Budget must remain balanced, so teacher training must be cost-effective."
+              }
+            ]
+          }
+        ],
+        "thoughts": [
+          {
+            "key": "TH_1",
+            "backtracked_from": "None",
+            "parent_thought": "None",
+            "associated_foundation_observations": [
+              "FO_1"
+            ],
+            "name": "Identify AI-era educational priorities",
+            "guard_rails_to_consider": [
+              "Creativity",
+              "Cultural Context",
+              "Budget"
+            ],
+            "thought_process": [
+              {
+                "key": "AS_16",
+                "previous_step_key": "None",
+                "content": "We see that advanced AI tools can handle routine tasks."
+              },
+              {
+                "key": "AS_17",
+                "previous_step_key": "AS_16",
+                "content": "Human creativity and judgment become more critical."
+              },
+              {
+                "key": "AS_18",
+                "previous_step_key": "AS_17",
+                "content": "We should equip learners with cross-cultural, collaborative skills."
+              },
+              {
+                "key": "AS_19",
+                "previous_step_key": "AS_18",
+                "content": "We must also ensure the approach doesn't exceed current budgets."
+              }
+            ]
+          },
+          {
+            "key": "TH_2",
+            "backtracked_from": "None",
+            "parent_thought": "TH_1",
+            "associated_foundation_observations": [
+              "FO_2"
+            ],
+            "name": "Propose structural elements of AI-age education",
+            "guard_rails_to_consider": [
+              "Creativity",
+              "Cultural Context",
+              "Budget"
+            ],
+            "thought_process": [
+              {
+                "key": "AS_20",
+                "previous_step_key": "None",
+                "content": "Emphasize creativity with open-ended project work."
+              },
+              {
+                "key": "AS_21",
+                "previous_step_key": "AS_20",
+                "content": "Include intercultural collaboration modules."
+              },
+              {
+                "key": "AS_22",
+                "previous_step_key": "AS_21",
+                "content": "Use AI-driven tutoring to personalize learning at scale."
+              },
+              {
+                "key": "AS_23",
+                "previous_step_key": "AS_22",
+                "content": "Enhance teacher training with AI-based resources for cost-efficiency."
+              }
+            ]
+          },
+          {
+            "key": "TH_3",
+            "backtracked_from": "None",
+            "parent_thought": "TH_2",
+            "associated_foundation_observations": [
+              "FO_1",
+              "FO_2",
+              "FO_3"
+            ],
+            "name": "Refine system blueprint",
+            "guard_rails_to_consider": [
+              "Creativity",
+              "Cultural Context",
+              "Budget"
+            ],
+            "thought_process": [
+              {
+                "key": "AS_24",
+                "previous_step_key": "None",
+                "content": "Combine creativity modules, cultural context, and cost control."
+              },
+              {
+                "key": "AS_25",
+                "previous_step_key": "AS_24",
+                "content": "Students engage in real-world AI challenges with diverse perspectives."
+              },
+              {
+                "key": "AS_26",
+                "previous_step_key": "AS_25",
+                "content": "Implementation uses existing funds by leveraging digital platforms."
+              },
+              {
+                "key": "AS_27",
+                "previous_step_key": "AS_26",
+                "content": "This is a cohesive, AI-optimized, creativity-focused, culturally adaptable model."
+              }
+            ]
+          },
+          {
+            "key": "TH_4",
+            "backtracked_from": "None",
+            "parent_thought": "TH_3",
+            "associated_foundation_observations": [
+              "FO_4"
+            ],
+            "name": "Explore outcome measurement in detail",
+            "guard_rails_to_consider": [
+              "Creativity",
+              "Cultural Context",
+              "Budget"
+            ],
+            "thought_process": [
+              {
+                "key": "AS_48",
+                "previous_step_key": "None",
+                "content": "We want to measure how effectively students develop creative thinking."
+              },
+              {
+                "key": "AS_49",
+                "previous_step_key": "AS_48",
+                "content": "We consider portfolios and AI-assisted analytics of student projects."
+              },
+              {
+                "key": "AS_50",
+                "previous_step_key": "AS_49",
+                "content": "Cultural aspects require flexible rubrics that respect local values."
+              },
+              {
+                "key": "AS_51",
+                "previous_step_key": "AS_50",
+                "content": "We must keep costs down by using existing tech infrastructures."
+              },
+              {
+                "key": "AS_52",
+                "previous_step_key": "AS_51",
+                "content": "Piloting in different communities helps refine the measurement approach."
+              }
+            ]
+          },
+          {
+            "key": "TH_5",
+            "backtracked_from": "None",
+            "parent_thought": "TH_4",
+            "associated_foundation_observations": [
+              "FO_5"
+            ],
+            "name": "Integrate teacher feedback and policy considerations",
+            "guard_rails_to_consider": [
+              "Creativity",
+              "Cultural Context",
+              "Budget"
+            ],
+            "thought_process": [
+              {
+                "key": "AS_53",
+                "previous_step_key": "None",
+                "content": "Teachers can guide culturally nuanced lessons and track creativity growth."
+              },
+              {
+                "key": "AS_54",
+                "previous_step_key": "AS_53",
+                "content": "We align with existing policies to make adoption easier."
+              },
+              {
+                "key": "AS_55",
+                "previous_step_key": "AS_54",
+                "content": "Regular teacher training fosters consistent improvement in AI-based methods."
+              },
+              {
+                "key": "AS_56",
+                "previous_step_key": "AS_55",
+                "content": "Policy-level support ensures budgets are allocated effectively."
+              },
+              {
+                "key": "AS_57",
+                "previous_step_key": "AS_56",
+                "content": "We might discover new angles, so we continue exploring before concluding."
+              }
+            ]
+          }
+        ]
+      },
+      "findings_summary": "Our continued exploration further emphasizes the importance of flexible, project-based learning that integrates AI tools without overshadowing human creativity. We have begun to define metrics for creative thinking, ethical reasoning, and cultural adaptability, with teacher training playing a key role in bridging policy requirements, budget realities, and advanced AI methods. By leveraging existing infrastructures and focusing on localized pilot programs, we can refine our measurement and feedback systems. However, we recognize there are still many angles to explore, especially regarding large-scale rollout, long-term cost management, and equitable resource distribution.",
+      "remaining_questions": [
+        "What specific frameworks can reliably measure creativity in AI-based assignments at scale?",
+        "How do we continuously update teacher training programs to keep up with rapidly evolving AI?",
+        "How can we ensure that cultural nuances are fully respected in large, diverse educational systems?"
+      ],
+      "is_conclusion_premature": true,
+      "reason_for_premature_conclusion": "We still see multiple angles to explore and additional details to refine, so we have not finalized a conclusion."
+    }
+  }
