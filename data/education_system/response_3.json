@@ -1,0 +1,357 @@
+{
+    "name": "InDepthStructuredReasoning",
+    "description": "Correctly extracted `InDepthStructuredReasoning` with all the required parameters with correct types",
+    "parameters": {
+      "reasoning_process": {
+        "foundation_observations": [
+          {
+            "key": "FO_1",
+            "name": "Observing the current education landscape",
+            "atomic_steps": [
+              {
+                "key": "AS_1",
+                "previous_step_key": "None",
+                "content": "Education systems vary widely across the globe."
+              },
+              {
+                "key": "AS_2",
+                "previous_step_key": "AS_1",
+                "content": "Many focus on standardized testing and rigid curricula."
+              },
+              {
+                "key": "AS_3",
+                "previous_step_key": "AS_2",
+                "content": "Traditional models may not address emerging AI-driven job skills."
+              }
+            ]
+          },
+          {
+            "key": "FO_2",
+            "name": "Noting the impact of AI on job markets",
+            "atomic_steps": [
+              {
+                "key": "AS_4",
+                "previous_step_key": "None",
+                "content": "AI continues to automate routine tasks."
+              },
+              {
+                "key": "AS_5",
+                "previous_step_key": "AS_4",
+                "content": "Human creativity and critical thinking become more essential."
+              },
+              {
+                "key": "AS_6",
+                "previous_step_key": "AS_5",
+                "content": "Educational frameworks need to nurture innovative thinking."
+              }
+            ]
+          },
+          {
+            "key": "FO_3",
+            "name": "Constraints from cultural diversity and budgets",
+            "atomic_steps": [
+              {
+                "key": "AS_7",
+                "previous_step_key": "None",
+                "content": "Education systems must be flexible to different cultural values."
+              },
+              {
+                "key": "AS_8",
+                "previous_step_key": "AS_7",
+                "content": "Any reform must stay within current budget limitations."
+              },
+              {
+                "key": "AS_9",
+                "previous_step_key": "AS_8",
+                "content": "Leveraging existing resources could be critical."
+              }
+            ]
+          },
+          {
+            "key": "FO_4",
+            "name": "Further consideration: standardizing teacher training",
+            "atomic_steps": [
+              {
+                "key": "AS_20",
+                "previous_step_key": "None",
+                "content": "Teacher training must incorporate universal AI literacy principles."
+              },
+              {
+                "key": "AS_21",
+                "previous_step_key": "AS_20",
+                "content": "Yet it needs to remain adaptable to local cultural contexts."
+              },
+              {
+                "key": "AS_22",
+                "previous_step_key": "AS_21",
+                "content": "Centralized guidelines can help but should allow regional customization."
+              }
+            ]
+          },
+          {
+            "key": "FO_5",
+            "name": "Further consideration: measuring education success",
+            "atomic_steps": [
+              {
+                "key": "AS_23",
+                "previous_step_key": "None",
+                "content": "Traditional tests may not fully capture creative and critical skills."
+              },
+              {
+                "key": "AS_24",
+                "previous_step_key": "AS_23",
+                "content": "Multi-faceted evaluations like portfolios, project work, and peer reviews could be used."
+              },
+              {
+                "key": "AS_25",
+                "previous_step_key": "AS_24",
+                "content": "Practical, real-world tasks might better showcase readiness for an AI-driven environment."
+              }
+            ]
+          },
+          {
+            "key": "FO_6",
+            "name": "Further consideration: forging public-private partnerships",
+            "atomic_steps": [
+              {
+                "key": "AS_32",
+                "previous_step_key": "None",
+                "content": "Collaboration with tech companies could provide specialized AI resources."
+              },
+              {
+                "key": "AS_33",
+                "previous_step_key": "AS_32",
+                "content": "Public sector oversight ensures equitable access and upholds cultural integrity."
+              },
+              {
+                "key": "AS_34",
+                "previous_step_key": "AS_33",
+                "content": "Budget constraints could be eased through shared funding and in-kind tech support."
+              }
+            ]
+          },
+          {
+            "key": "FO_7",
+            "name": "Further consideration: governance and long-term updates",
+            "atomic_steps": [
+              {
+                "key": "AS_35",
+                "previous_step_key": "None",
+                "content": "AI and job markets evolve rapidly, requiring continuous curriculum updates."
+              },
+              {
+                "key": "AS_36",
+                "previous_step_key": "AS_35",
+                "content": "A dedicated regulatory or advisory body might be necessary to guide ongoing reforms."
+              },
+              {
+                "key": "AS_37",
+                "previous_step_key": "AS_36",
+                "content": "Such a body would need representation from educators, technologists, and cultural experts."
+              }
+            ]
+          }
+        ],
+        "thoughts": [
+          {
+            "key": "TH_1",
+            "backtracked_from": "None",
+            "parent_thought": "None",
+            "associated_foundation_observations": ["FO_1"],
+            "name": "Initial reflection on core needs",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_10",
+                "previous_step_key": "None",
+                "content": "We need a system that emphasizes innovation from early stages."
+              },
+              {
+                "key": "AS_11",
+                "previous_step_key": "AS_10",
+                "content": "This must still accommodate varied cultural backgrounds."
+              }
+            ]
+          },
+          {
+            "key": "TH_2",
+            "backtracked_from": "None",
+            "parent_thought": "TH_1",
+            "associated_foundation_observations": ["FO_2"],
+            "name": "Focus on AI’s role",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_12",
+                "previous_step_key": "None",
+                "content": "AI demands skill in critical analysis and creative problem-solving."
+              },
+              {
+                "key": "AS_13",
+                "previous_step_key": "AS_12",
+                "content": "The curriculum could include computational thinking and ethics."
+              }
+            ]
+          },
+          {
+            "key": "TH_3",
+            "backtracked_from": "None",
+            "parent_thought": "TH_2",
+            "associated_foundation_observations": ["FO_3"],
+            "name": "Aligning with cultural and financial constraints",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_14",
+                "previous_step_key": "None",
+                "content": "We can integrate local cultural examples to ensure relevance."
+              },
+              {
+                "key": "AS_15",
+                "previous_step_key": "AS_14",
+                "content": "Reuse existing teacher training structures to manage cost."
+              }
+            ]
+          },
+          {
+            "key": "TH_4",
+            "backtracked_from": "None",
+            "parent_thought": "TH_3",
+            "associated_foundation_observations": ["FO_1", "FO_2", "FO_3"],
+            "name": "Formulating the new AI-optimized education system",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_16",
+                "previous_step_key": "None",
+                "content": "Propose a project-based curriculum emphasizing creativity and AI literacy."
+              },
+              {
+                "key": "AS_17",
+                "previous_step_key": "AS_16",
+                "content": "Incorporate ethics, social context, and collaboration using cultural case studies."
+              },
+              {
+                "key": "AS_18",
+                "previous_step_key": "AS_17",
+                "content": "Ensure teacher development is scaled within existing budget through blended learning."
+              },
+              {
+                "key": "AS_19",
+                "previous_step_key": "AS_18",
+                "content": "This fosters critical thinking, adaptability, and cross-cultural understanding."
+              }
+            ]
+          },
+          {
+            "key": "TH_5",
+            "backtracked_from": "None",
+            "parent_thought": "TH_4",
+            "associated_foundation_observations": ["FO_4"],
+            "name": "Deeper dive into standardizing teacher training",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_26",
+                "previous_step_key": "None",
+                "content": "Create a universal AI-teaching framework with flexible cultural modules."
+              },
+              {
+                "key": "AS_27",
+                "previous_step_key": "AS_26",
+                "content": "Encourage teacher exchanges and online communities to share best practices."
+              },
+              {
+                "key": "AS_28",
+                "previous_step_key": "AS_27",
+                "content": "Incorporate ongoing professional development to keep up with AI advancements."
+              }
+            ]
+          },
+          {
+            "key": "TH_6",
+            "backtracked_from": "None",
+            "parent_thought": "TH_4",
+            "associated_foundation_observations": ["FO_5"],
+            "name": "Exploring metrics for success in AI-era education",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_29",
+                "previous_step_key": "None",
+                "content": "Adopt multi-dimensional evaluations including portfolios and collaborative projects."
+              },
+              {
+                "key": "AS_30",
+                "previous_step_key": "AS_29",
+                "content": "Measure adaptability, creativity, and ethical decision-making as key outcomes."
+              },
+              {
+                "key": "AS_31",
+                "previous_step_key": "AS_30",
+                "content": "Incentivize cross-disciplinary work to demonstrate real-world readiness."
+              }
+            ]
+          },
+          {
+            "key": "TH_7",
+            "backtracked_from": "None",
+            "parent_thought": "TH_4",
+            "associated_foundation_observations": ["FO_6"],
+            "name": "Leveraging public-private collaborations",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_38",
+                "previous_step_key": "None",
+                "content": "Establish partnerships with AI firms for resources and training materials."
+              },
+              {
+                "key": "AS_39",
+                "previous_step_key": "AS_38",
+                "content": "Ensure public sector participation to safeguard equitable distribution of benefits."
+              },
+              {
+                "key": "AS_40",
+                "previous_step_key": "AS_39",
+                "content": "Monitor and regulate budgets through shared responsibility and accountability frameworks."
+              }
+            ]
+          },
+          {
+            "key": "TH_8",
+            "backtracked_from": "None",
+            "parent_thought": "TH_4",
+            "associated_foundation_observations": ["FO_7"],
+            "name": "Establishing governance for ongoing curriculum evolution",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_41",
+                "previous_step_key": "None",
+                "content": "Form an interdisciplinary council to continually update AI-related coursework."
+              },
+              {
+                "key": "AS_42",
+                "previous_step_key": "AS_41",
+                "content": "Include tech experts, educators, and cultural representatives for balanced guidance."
+              },
+              {
+                "key": "AS_43",
+                "previous_step_key": "AS_42",
+                "content": "Require periodic reviews to ensure content remains culturally relevant and cost-feasible."
+              }
+            ]
+          }
+        ]
+      },
+      "findings_summary": "Our deeper exploration reveals that integrating AI literacy into education requires not just a revised curriculum and teacher-training approach, but also robust partnerships and ongoing governance. Public-private collaborations can alleviate budget burdens and provide cutting-edge resources, while an interdisciplinary council can update guidelines to keep pace with AI advancements. This iterative model—encompassing project-based learning, cultural adaptability, holistic assessments, and dynamic oversight—continues to evolve, demonstrating the necessity of long-term engagement and refinement. We are still uncovering new angles, indicating that further research and discussion is needed to finalize this comprehensive plan.",
+      "remaining_questions": [
+        "How can public-private collaborations be regulated to maintain equitable educational opportunities?",
+        "What mechanisms ensure regular and inclusive feedback on curriculum changes over time?",
+        "How do we handle potential conflicts of interest when AI firms are involved in shaping education?"
+      ],
+      "is_conclusion_premature": true,
+      "reason_for_premature_conclusion": "We have identified additional pathways for sustained governance, public-private collaboration, and cultural considerations that require further development and consensus before finalizing a complete AI-era education blueprint."
+    }
+  }

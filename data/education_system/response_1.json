@@ -1,0 +1,172 @@
+{
+    "name": "InDepthStructuredReasoning",
+    "description": "Correctly extracted `InDepthStructuredReasoning` with all the required parameters with correct types",
+    "parameters": {
+      "reasoning_process": {
+        "foundation_observations": [
+          {
+            "key": "FO_1",
+            "name": "Observing the current education landscape",
+            "atomic_steps": [
+              {
+                "key": "AS_1",
+                "previous_step_key": "None",
+                "content": "Education systems vary widely across the globe."
+              },
+              {
+                "key": "AS_2",
+                "previous_step_key": "AS_1",
+                "content": "Many focus on standardized testing and rigid curricula."
+              },
+              {
+                "key": "AS_3",
+                "previous_step_key": "AS_2",
+                "content": "Traditional models may not address emerging AI-driven job skills."
+              }
+            ]
+          },
+          {
+            "key": "FO_2",
+            "name": "Noting the impact of AI on job markets",
+            "atomic_steps": [
+              {
+                "key": "AS_4",
+                "previous_step_key": "None",
+                "content": "AI continues to automate routine tasks."
+              },
+              {
+                "key": "AS_5",
+                "previous_step_key": "AS_4",
+                "content": "Human creativity and critical thinking become more essential."
+              },
+              {
+                "key": "AS_6",
+                "previous_step_key": "AS_5",
+                "content": "Educational frameworks need to nurture innovative thinking."
+              }
+            ]
+          },
+          {
+            "key": "FO_3",
+            "name": "Constraints from cultural diversity and budgets",
+            "atomic_steps": [
+              {
+                "key": "AS_7",
+                "previous_step_key": "None",
+                "content": "Education systems must be flexible to different cultural values."
+              },
+              {
+                "key": "AS_8",
+                "previous_step_key": "AS_7",
+                "content": "Any reform must stay within current budget limitations."
+              },
+              {
+                "key": "AS_9",
+                "previous_step_key": "AS_8",
+                "content": "Leveraging existing resources could be critical."
+              }
+            ]
+          }
+        ],
+        "thoughts": [
+          {
+            "key": "TH_1",
+            "backtracked_from": "None",
+            "parent_thought": "None",
+            "associated_foundation_observations": ["FO_1"],
+            "name": "Initial reflection on core needs",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_10",
+                "previous_step_key": "None",
+                "content": "We need a system that emphasizes innovation from early stages."
+              },
+              {
+                "key": "AS_11",
+                "previous_step_key": "AS_10",
+                "content": "This must still accommodate varied cultural backgrounds."
+              }
+            ]
+          },
+          {
+            "key": "TH_2",
+            "backtracked_from": "None",
+            "parent_thought": "TH_1",
+            "associated_foundation_observations": ["FO_2"],
+            "name": "Focus on AI’s role",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_12",
+                "previous_step_key": "None",
+                "content": "AI demands skill in critical analysis and creative problem-solving."
+              },
+              {
+                "key": "AS_13",
+                "previous_step_key": "AS_12",
+                "content": "The curriculum could include computational thinking and ethics."
+              }
+            ]
+          },
+          {
+            "key": "TH_3",
+            "backtracked_from": "None",
+            "parent_thought": "TH_2",
+            "associated_foundation_observations": ["FO_3"],
+            "name": "Aligning with cultural and financial constraints",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_14",
+                "previous_step_key": "None",
+                "content": "We can integrate local cultural examples to ensure relevance."
+              },
+              {
+                "key": "AS_15",
+                "previous_step_key": "AS_14",
+                "content": "Reuse existing teacher training structures to manage cost."
+              }
+            ]
+          },
+          {
+            "key": "TH_4",
+            "backtracked_from": "None",
+            "parent_thought": "TH_3",
+            "associated_foundation_observations": ["FO_1", "FO_2", "FO_3"],
+            "name": "Formulating the new AI-optimized education system",
+            "guard_rails_to_consider": ["Creativity", "Cultural Context", "Budget"],
+            "thought_process": [
+              {
+                "key": "AS_16",
+                "previous_step_key": "None",
+                "content": "Propose a project-based curriculum emphasizing creativity and AI literacy."
+              },
+              {
+                "key": "AS_17",
+                "previous_step_key": "AS_16",
+                "content": "Incorporate ethics, social context, and collaboration using cultural case studies."
+              },
+              {
+                "key": "AS_18",
+                "previous_step_key": "AS_17",
+                "content": "Ensure teacher development is scaled within existing budget through blended learning."
+              },
+              {
+                "key": "AS_19",
+                "previous_step_key": "AS_18",
+                "content": "This fosters critical thinking, adaptability, and cross-cultural understanding."
+              }
+            ]
+          }
+        ]
+      },
+      "findings_summary": "A new education system for the AI era should revolve around creativity, critical thinking, and cultural adaptability. Project-based learning with an emphasis on computational thinking and ethical awareness can fit within existing budgets by building on current infrastructures. Cross-cultural examples ensure global applicability, while investments in teacher training can be managed through digital and local resources. This approach helps students develop the skills needed for an AI-driven world while preserving human creativity.",
+      "remaining_questions": [
+        "How can teacher training be standardized across different regions without losing local relevance?",
+        "What metrics will be used to evaluate success of these new curricula?"
+      ],
+      "is_conclusion_premature": false,
+      "reason_for_premature_conclusion": "conclusion NOT premature"
+    }
+  }
