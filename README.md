@@ -12,6 +12,56 @@ DAG of Thought provides a framework for breaking down complex reasoning tasks in
 - Managing guard rails for controlled reasoning
 - Integrating with language models for automated reasoning
 
+## Example
+### Input
+```python
+TASK = "Design an optimized CUDA kernel implementation for softmax that maximizes throughput while maintaining numerical stability"
+
+GUARDRAILS = [
+    GuardRail(
+        name="Numerical Stability",
+        description="Must maintain numerical stability (handling overflow/underflow)"
+    ),
+    GuardRail(
+        name="Memory Usage",
+        description="Maximum shared memory usage of 48KB per block"
+    ),
+    GuardRail(
+        name="Batch Handling",
+        description="Must handle variable batch sizes efficiently"
+    ),
+    GuardRail(
+        name="Performance",
+        description="Must outperform naive implementation by at least 100x"
+    ),
+    GuardRail(
+        name="Dependencies",
+        description="Cannot use external CUDA libraries (only basic CUDA primitives)"
+    )
+]
+```
+
+### Output
+### Findings Summary
+In revisiting and extending our exploration, we see that:
+- Numerical stability hinges on a robust max-subtraction method, possibly refined with warp-level primitives to reduce overhead
+- A single-pass approach can reduce global memory traffic, but requires careful synchronization and design of warp-level reductions
+- Multi-pass segmented approaches may be necessary for extremely large dimensions, keeping shared memory usage within 48KB per block
+- Efficiently coordinating thread blocks for variable batch sizes ensures each batch dimension is handled independently, respecting memory boundaries and delivering high throughput
+- These advanced optimizations, if implemented carefully with attention to kernel launch configuration, warp synchronization, and shared memory utilization, further boost performance beyond the initial two-pass approach while still meeting the constraints of numerical stability, memory usage, and dependency limitations
+
+### Remaining Questions
+1. Is there a practical upper bound on dimension size where multi-pass segmented softmax is more advantageous than a single-pass approach?
+2. Could mixed precision (e.g., FP16 for intermediate exponentials) maintain stability while improving throughput further?
+
+### Conclusion Status
+- Is conclusion premature? No
+- Reason: conclusion NOT premature
+
+### Reasoning Process Visualization
+![Reasoning Process](https://www.mermaidchart.com/raw/25009061-0102-4ca5-9c01-e643b15a1862?theme=light&version=v0.1&format=svg)
+
+
 ## Project Structure
 
 ```
@@ -84,7 +134,13 @@ git clone https://github.com/yourusername/DAGofThought.git
 cd DAGofThought
 ```
 
-2. Install dependencies:
+2. Copy the environment file and add your OpenAI API key:
+```bash
+cp .env.example .env
+# Edit .env and add your OPENAI_API_KEY
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
