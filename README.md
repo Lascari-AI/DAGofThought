@@ -1,16 +1,22 @@
 # DAGofThought
 
-This project is an implementation and expansion of an interesting approach to structured reasoning using DAGs (Directed Acyclic Graphs), originally proposed by [@mrsiipa](https://x.com/mrsiipa/status/1876253176963493889) and initially implemented by [Maharshi Pandya](https://gist.github.com/Maharshi-Pandya/4aeccbe1dbaa7f89c182bd65d2764203).
+This project is an implementation and expansion of an interesting approach to structured reasoning using DAGs (Directed Acyclic Graphs) through the use of structured outputs ([Instructor Library](https://python.useinstructor.com/))
+This is specifically for the use during Test Time Compute models such as gpt-o1/o1-mini/o1-pro
+
+### Credits
+Original prompt by [@mrsiipa](https://x.com/mrsiipa/status/1876253176963493889)
+
+[Original Prompt](https://gist.github.com/Maharshi-Pandya/4aeccbe1dbaa7f89c182bd65d2764203).
 
 ## Overview
 
-DAG of Thought provides a framework for breaking down complex reasoning tasks into manageable, interconnected components using a DAG structure. The project includes tools for:
+DAG of Thought provides a framework for analyzing and controlling how language models reason by:
 
-- Creating structured reasoning processes
-- Visualizing thought patterns as Mermaid diagrams
-- Processing and analyzing responses
-- Managing guard rails for controlled reasoning
-- Integrating with language models for automated reasoning
+- Capturing the step-by-step thought process during inference
+- Visualizing reasoning patterns and dependencies as DAG diagrams
+- Analyzing thought flows to understand model behavior
+- Using guard rails to guide and constrain reasoning paths
+- Enabling systematic observation and steering of language model reasoning
 
 ## Example
 ### Input
