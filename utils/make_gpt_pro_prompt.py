@@ -9,7 +9,7 @@ from prompts.format_structured_reasoning_user_prompt import (
 )
 
 
-def make_prompt_for_gpt_prompt(
+def make_gpt_pro_prompt(
     IN_DEPTH_THINKING_SYSTEM_PROMPT: str,
     task: str,
     guardrails: List[GuardRail] = [],

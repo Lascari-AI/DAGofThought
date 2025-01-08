@@ -96,7 +96,7 @@ def build_mermaid_diagram(data: dict, is_gpt_pro: bool = False) -> str:
             mermaid_lines.append("            GR_None_1[No guard rails specified]")
         else:
             for i, gr in enumerate(guard_rails, start=1):
-                if is_gpt_prompt:
+                if is_gpt_pro:
                     gr_value = gr.replace("\n", "\\n")
                 else:
                     gr_value = gr.name.replace("\n", "\\n")
